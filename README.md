@@ -1,6 +1,3 @@
-# Compiladores
-Projeto da disciplina Compiladores - UFABC
-
 
 package jsjc;
 
@@ -17,11 +14,10 @@ public class JSJC {
         System.out.println("Digite Y para calcular ou N para sair ");
         rep = entrada.nextLine();
        
-        while(rep.equals("Y")){  //NAO ESTOU CONSEGUINDO FAZER O WHILE FUNCIONAR
+        while(rep.equals("Y")){
             
         
             System.out.println("Digite JS para Juros Simples, e JC para calcular Juros Compostos: ");
-        
             teclado = entrada.nextLine();
         
                 if (teclado.equals("JS")){
@@ -56,6 +52,9 @@ public class JSJC {
                     System.out.println("O montante após " +t+ " meses vai ser de "+ M);
                     
                 }
+                
+        System.out.println("Digite Y para calcular ou N para sair ");
+        rep = entrada.nextLine();
         }
     }
 }
